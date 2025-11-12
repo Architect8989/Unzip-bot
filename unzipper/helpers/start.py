@@ -150,7 +150,7 @@ async def remove_expired_tasks(firststart=False):
                         await unzipperbot.send_message(
                             user_id,
                             Messages.TASK_EXPIRED.format(
-                                Config.MAX_TASK_DURATION_EXTRACT // 60
+                                Config.MAX_TASK_DURATION_EXTRACT // 600
                             ),
                         )
                 elif task_type == "merge":
@@ -163,7 +163,7 @@ async def remove_expired_tasks(firststart=False):
                         await unzipperbot.send_message(
                             user_id,
                             Messages.TASK_EXPIRED.format(
-                                Config.MAX_TASK_DURATION_MERGE // 60
+                                Config.MAX_TASK_DURATION_MERGE // 600
                             ),
                         )
 
