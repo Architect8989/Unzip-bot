@@ -1,11 +1,8 @@
-#!/bin/bash
-echo "
-🔥 Unzip Bot 🔥
+Unarchive
 
-Copyright (c) 2022 - 2024 EDM115
+Copyright (c) 2025 - 2026 @networkdefender
 
---> Join @EDM115bots on Telegram
---> Follow EDM115 on Github
+--> Join @cehv13grp on Telegram
 "
 if grep -qE '^[^#]*=\s*("|'\''?)\s*\1\s*$' .env; then
   echo "Some required vars are empty, please fill them unless you're filling them somewhere else (ex : Heroku, Docker Desktop)"
